@@ -3,35 +3,37 @@
 ============= */
 
 
-footer{
+.footer{
+
+    background-color: $dark-electric-blue;
+    .container{
+
     
     .content{
         display:grid;
         grid-template-columns: 50% 50%;
         grid-template-areas: 
-        "logo josh"
-        "logo copyright"
-        ;
-
-        @include md{
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-areas:
-            "logo josh copyright"
-            ;
-        }
-
-        img{
-            grid-area:logo;
-        }
-
-        h3{
-            grid-area:josh;
-        }
-
+        "socials copyright";
+       
+        
         p{
-            grid-area:copyright;
+            color: $white;
+            font-size: 8px;
+            
         }
 
-    }
+        }
+        .copyright{
+           
+        }
+        
 
+        .socials{
+            ul{
+                display: flex;
+                list-style-type: none;
+                padding: 0;
+            }
+        }
+    }
 }

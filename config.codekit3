@@ -273,35 +273,44 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/icons\/doordash.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/doordash.svg",
+    "\/deploy\/img\/icons\/Doordash.png" : {
+      "ft" : 32768,
+      "iS" : 350,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icons\/Doordash.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/icons\/facebook.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/facebook.svg",
+    "\/deploy\/img\/icons\/Facebook.png" : {
+      "ft" : 32768,
+      "iS" : 447,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icons\/Facebook.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/deploy\/img\/icons\/instagram.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/instagram.svg",
+    "\/deploy\/img\/icons\/Instagram.png" : {
+      "ft" : 32768,
+      "iS" : 515,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icons\/Instagram.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/icons\/leaves.jpg" : {
       "ft" : 16384,
@@ -316,15 +325,18 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/icons\/pinterest.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/icons\/pinterest.svg",
+    "\/deploy\/img\/icons\/Pinterest.png" : {
+      "ft" : 32768,
+      "iS" : 523,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icons\/Pinterest.png",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/icons\/wordmark.svg" : {
       "ft" : 2097152,
@@ -550,6 +562,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_about-continued.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_about-continued.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

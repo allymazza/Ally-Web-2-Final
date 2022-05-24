@@ -1,0 +1,52 @@
+/* =============
+    About
+============= */
+
+.about-continued{
+    background-color: $cultured;
+    .container{
+        
+        .content{
+            padding: 20px;
+
+
+
+            .button{
+            
+                display: flex;
+                justify-content: center;
+                align-items: center;
+ 
+
+            }
+            p{
+                text-align: justify;
+                color: $japanese-indigo;
+                margin-bottom: 30px;
+            }
+
+            a{
+                color: $japanese-indigo;
+            }
+
+            img{
+                width: 100%;
+                    display: block;
+                    margin-bottom: 30px;
+            }
+
+            button{
+                background-color: $rite-of-passage;
+                width: 150px;
+                height: 50px;
+                margin: 0;
+                
+                
+ 
+                
+            }
+        }
+
+        
+    }
+}

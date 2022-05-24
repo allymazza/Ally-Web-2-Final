@@ -1,27 +1,40 @@
 /* =============
-    Product Design
+    About
 ============= */
 
-
-.product-design{
-
-    &.container{
-
-        @include md{
-            grid-template-columns: 10% auto 10%;
-            
-        }
-
-        .content{
-            
-            @include lg{
-                display: grid;
-                grid-template-columns: 45% auto;
+.about{
+    .about-image{
+        .container{
+            .content{
+                img{
+                    width: 100%;
+                    display: block;
+                }
             }
         }
     }
 
-    img{
-        width:100%;
+
+
+    .about-info{
+        color: $japanese-indigo;
+        .container{
+            .content{
+
+                h3{
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: $japanese-indigo; 
+                    text-align: center;
+                    padding: 20px;
+                }
+
+                ul{
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: $japanese-indigo;
+            }
+                }
+            }
+        }
     }
-}

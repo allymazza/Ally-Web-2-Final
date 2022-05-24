@@ -1,6 +1,35 @@
-.hero{
-    img{
-        width:100%;
-    }
+/* =============
+    Contact
+============= */
 
+
+.contact{
+    background-color: $cultured;
+    text-align: center;
+    .container{
+        .content{
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 2;
+            margin-bottom: 30px;
+
+            h2{
+                font-size: 24px;
+                font-weight: 700;
+                color: $japanese-indigo;
+
+            }
+
+            h3{
+                font-size: 16px;
+                font-weight: 300;
+                color: $japanese-indigo;
+            }
+
+            a{
+                text-decoration: none
+            }
+
+        }
+    }
 }
