@@ -2,21 +2,43 @@
     Header
 ============= */
 
-header{
+.header{
+    background-color: $dark-electric-blue;
+    
+
+    .background{
+        img{
+            opacity: .3;
+        }
+
+        .container{
+  
+    
+            .content{
+
+        }
+    }   
+}
+   
+.masthead{ 
+
+    .container{
+  
+    
     .content{
         display:grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 100%;
+        align-content: center;
 
-        ul{
-            li{
-                list-style: none;
-                
-                font-family: 'Tapestry', cursive;
-
-                a{
-                    text-decoration: none;
-                }
-            }
+        .logo{
+            width: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
         }
+    }
+
+    }
     }
 }

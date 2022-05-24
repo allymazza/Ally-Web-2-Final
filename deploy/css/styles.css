@@ -365,16 +365,30 @@ template {
     Typography
 ============= */
 body {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
-body p {
-  font-weight: 100;
-  font-size: 24px;
+
+p {
+  font-weight: 300;
+  margin: 0;
 }
-body h1 {
-  font-family: "Tapestry", cursive;
-  font-size: 40px;
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 27px;
+}
+
+h3 {
+  font-size: 22px;
 }
 
 /* =============
@@ -404,16 +418,23 @@ textarea {
 /* =============
     Header
 ============= */
-header .content {
+.header {
+  background-color: #4e7276;
+}
+.header .background img {
+  opacity: 0.3;
+}
+.header .masthead .container .content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 100%;
+  align-content: center;
 }
-header .content ul li {
-  list-style: none;
-  font-family: "Tapestry", cursive;
-}
-header .content ul li a {
-  text-decoration: none;
+.header .masthead .container .content .logo {
+  width: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
 
 /* =============
@@ -440,26 +461,48 @@ footer .content p {
   grid-area: copyright;
 }
 
-.hero img {
-  width: 100%;
+/* =============
+    Hero Content
+============= */
+.hero-content {
+  text-align: center;
+}
+.hero-content .container .content {
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.hero-content .container .content h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.hero-content .container .content h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.hero-content .container .content p {
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: justify;
 }
 
 /* =============
-    Product Design
+    Shop
 ============= */
-@media (min-width: 768px) {
-  .product-design.container {
-    grid-template-columns: 10% auto 10%;
-  }
+.shop {
+  background-color: #4e7276;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
-@media (min-width: 992px) {
-  .product-design.container .content {
-    display: grid;
-    grid-template-columns: 45% auto;
-  }
-}
-.product-design img {
-  width: 100%;
+.shop .container .content button {
+  background-color: #ffeca8;
+  width: 150px;
+  height: 50px;
 }
 
 /* =============
@@ -522,8 +565,31 @@ footer .content p {
 }
 
 /* =============
-    Hero 2
+    Product Design
 ============= */
-.hero-2 img {
+@media (min-width: 768px) {
+  .product-design.container {
+    grid-template-columns: 10% auto 10%;
+  }
+}
+@media (min-width: 992px) {
+  .product-design.container .content {
+    display: grid;
+    grid-template-columns: 45% auto;
+  }
+}
+.product-design img {
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero img {
   width: 100%;
 }

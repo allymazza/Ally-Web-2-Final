@@ -156,15 +156,15 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/homepage\/bouquet.jpeg" : {
-      "ft" : 16384,
-      "iS" : 3501241,
-      "jF" : 0,
+    "\/deploy\/img\/header.png" : {
+      "ft" : 32768,
+      "iS" : 48729,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/homepage\/bouquet.jpg",
+      "oAP" : "\/deploy\/img\/header.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -221,19 +221,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/homepage\/oneflower.jpeg" : {
-      "ft" : 16384,
-      "iS" : 59452,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/homepage\/oneflower.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/homepage\/roundtable.jpeg" : {
       "ft" : 16384,
       "iS" : 3145387,
@@ -247,12 +234,38 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/homepage\/twoflowers.jpeg" : {
+    "\/deploy\/img\/homepage\/vase.jpeg" : {
+      "ft" : 16384,
+      "iS" : 3501241,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/homepage\/vase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/homepage\/whiteandgreenflowers.jpeg" : {
       "ft" : 16384,
       "iS" : 1881290,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/homepage\/twoflowers.jpg",
+      "oAP" : "\/deploy\/img\/homepage\/whiteandgreenflowers.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/homepage\/whiteflower.jpeg" : {
+      "ft" : 16384,
+      "iS" : 59452,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/homepage\/whiteflower.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -332,6 +345,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/logo\/whitelogo.png" : {
+      "ft" : 32768,
+      "iS" : 1326,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/logo\/whitelogo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -544,6 +570,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_contact.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_contact.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_directory.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -559,6 +600,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/sections\/_gallery.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_gallery.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/sections\/_hero-content.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -569,6 +625,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_hero-content.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_newsletter.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_newsletter.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

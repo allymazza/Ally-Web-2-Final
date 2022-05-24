@@ -3,17 +3,28 @@
 ============= */
 
 body{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+p{
+    font-weight: 300;
+    margin: 0
+}
 
+h1, h2, h3, h4, h5 {
+    margin: 0
+}
 
-    p{
-        font-weight:100;
-        font-size: 24px;
-    }
+h1{
+    font-family: 'Playfair Display', serif;
     
-    h1{
-        font-family: 'Tapestry', cursive;
-        font-size: 40px;
-    }
+}
+
+h2{
+    font-weight: 700;
+    font-size: 27px;
+}
+
+h3{
+    font-size: 22px;
 }
