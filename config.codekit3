@@ -158,7 +158,7 @@
     },
     "\/deploy\/img\/header.png" : {
       "ft" : 32768,
-      "iS" : 48729,
+      "iS" : 49796,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/header.png",
       "oF" : 0,
@@ -169,54 +169,54 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/homepage\/buttton\/coffeetable.jpeg" : {
-      "ft" : 16384,
-      "iS" : 4877456,
-      "jF" : 0,
+    "\/deploy\/img\/homepage\/button\/cafe.png" : {
+      "ft" : 32768,
+      "iS" : 191320,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/homepage\/buttton\/coffeetable.jpg",
+      "oAP" : "\/deploy\/img\/homepage\/button\/cafe.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/homepage\/buttton\/glasses.jpeg" : {
-      "ft" : 16384,
-      "iS" : 3005592,
-      "jF" : 0,
+    "\/deploy\/img\/homepage\/button\/contact.png" : {
+      "ft" : 32768,
+      "iS" : 159804,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/homepage\/buttton\/glasses.jpg",
+      "oAP" : "\/deploy\/img\/homepage\/button\/contact.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/homepage\/buttton\/plantshelf.jpeg" : {
-      "ft" : 16384,
-      "iS" : 3247935,
-      "jF" : 0,
+    "\/deploy\/img\/homepage\/button\/ourstory.png" : {
+      "ft" : 32768,
+      "iS" : 145128,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/homepage\/buttton\/plantshelf.jpg",
+      "oAP" : "\/deploy\/img\/homepage\/button\/ourstory.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/homepage\/buttton\/yellowflowers.jpeg" : {
-      "ft" : 16384,
-      "iS" : 2921007,
-      "jF" : 0,
+    "\/deploy\/img\/homepage\/button\/resources.png" : {
+      "ft" : 32768,
+      "iS" : 174709,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/homepage\/buttton\/yellowflowers.jpg",
+      "oAP" : "\/deploy\/img\/homepage\/button\/resources.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -234,15 +234,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/homepage\/vase.jpeg" : {
-      "ft" : 16384,
-      "iS" : 3501241,
-      "jF" : 0,
+    "\/deploy\/img\/homepage\/vase.png" : {
+      "ft" : 32768,
+      "iS" : 572481,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/homepage\/vase.jpg",
+      "oAP" : "\/deploy\/img\/homepage\/vase.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -397,6 +397,14 @@
       "oA" : 0,
       "oAP" : "\/design\/In-class-S22.fig",
       "oF" : 0
+    },
+    "\/dev\/html\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
     "\/dev\/index.html" : {
       "cB" : 0,

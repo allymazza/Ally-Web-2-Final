@@ -3,18 +3,36 @@
 ============= */
 
 .header{
-    background-color: $dark-electric-blue;
-    background-image: url(deploy/img/header.png);
 
-    .hero-image{
-        img{
-            opacity: .3;
-        }
+    background-image: url("../img/header.png");
+    background-size: cover;
+    padding: 20px;
+    object-fit: none;
 
         .container{
   
     
             .content{
+                .burger-container{
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+            
+                    @include lg{
+                        display: none;
+                    }
+            
+                    button{
+                        border: none;
+                        background-color: transparent;
+                        color: $japanese-indigo;
+                        font-size: 20px;
+            
+                        &:hover{
+                            cursor: pointer;
+                        }
+                    }
+                }
                 
 
         }
@@ -25,11 +43,16 @@
 
     .container{
   
-        align-content: center;
+        
     .content{
         display:grid;
         grid-template-columns: 100%;
         align-content: center;
+
+        @include md{
+            align-content: center;
+        
+        }
 
         .logo{
             width: 10px;
@@ -44,6 +67,6 @@
         }
     }
 
+
     }
-    }
-}
+ }

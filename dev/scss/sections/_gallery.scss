@@ -1,12 +1,36 @@
 .gallery{
     .container{
-        width: 100%;
+        img{
+            width: 100%;
             display: block;
+            
+        }
         .content{
             
             display: grid;
             grid-template-columns: 50% 50%;
+            object-fit: cover;
 
+            
+            ul{
+                list-style: none;
+                padding-inline-start: 0;
+                display: flex;
+            }
+
+            li{
+                img{
+                    width: 100%;
+                    
+                }
+
+                &.img-1{
+                    width: 100%;
+                } 
+                &.img-2{
+                    width: 100%;
+                } 
+            }
         }
     }
 }

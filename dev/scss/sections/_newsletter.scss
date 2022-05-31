@@ -1,6 +1,29 @@
-.hero{
-    img{
-        width:100%;
+/* =============
+    Newsletter
+============= */
+.newsletter{
+    background-image: url("/deploy/img/icons/leaves.jpg");
+    background-size: cover;
+    padding: 20px;
+
+    .container{
+
+        .content{
+
+
+            .newsletter-info{
+                background-color: white;
+                .container{
+
+                    .content{
+                        display: inline;
+                        padding: 20px;
+
+                    }
+                }
+            }
+        }
     }
+
 
 }

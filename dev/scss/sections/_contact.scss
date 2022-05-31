@@ -6,12 +6,19 @@
 .contact{
     background-color: $cultured;
     text-align: center;
+
+    
     .container{
         .content{
             padding-left: 15px;
             padding-right: 15px;
             line-height: 2;
             margin-bottom: 30px;
+
+            @include lg{
+                display: grid;
+                grid-template-rows: auto auto;
+            }
 
             h2{
                 font-size: 24px;

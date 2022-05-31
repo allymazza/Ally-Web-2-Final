@@ -9,6 +9,10 @@
         .content{
             padding: 20px;
 
+            @include md{
+                padding: 50px;
+            }
+
 
 
             .button{

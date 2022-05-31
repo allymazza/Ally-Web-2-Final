@@ -20,7 +20,7 @@
                     font-size: 24px;
                     color: $japanese-indigo;
                     text-align: center;
-                    padding: 10px;
+                    padding: 20px;
                 
 
             }
@@ -42,43 +42,41 @@
 
     .cafe{
         .container{
-            position: relative;
-            width: 50%;
-            height: 80%;
+            
             .content{
-                img{
-                    
-                }
+                background-image: url("/deploy/img/homepage/button/cafe.png");
+                background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 70px;
+                    margin-bottom: 20px;
 
                 button{
                     background-color: $rite-of-passage;
-                    width: 100px;
-                    height: 40px;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    text-align: center;
-                }
+                    width: 50px;
+                    height: 30px;
+                    
             }
         }
     }
+}
 
     .our-story{
         .container{
-            position: relative;
-            width: 50%;
-            height: 80%;
             
             .content{
-
+                background-image: url("/deploy/img/homepage/button/ourstory.png");
+                background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 70px;
+                    margin-bottom: 20px;
+                    
+                    
                 button{
                     background-color: $rite-of-passage;
-                    width: 100px;
-                    height: 40px;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    text-align: center;
                 }
             }
         }
@@ -86,19 +84,18 @@
 
     .resources{
         .container{
-            position: relative;
-            width: 50%;
-            height: 80%;
+            
             .content{
-
+                background-image: url("/deploy/img/homepage/button/resources.png");
+                background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 70px;
+                    margin-bottom: 20px;
                 button{
                     background-color: $rite-of-passage;
-                    width: 100px;
-                    height: 40px;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    text-align: center;
+                    
                 }
 
             }
@@ -107,19 +104,19 @@
 
     .contact{
         .container{
-            position: relative;
-            width: 50%;
-            height: 80%;
+            
             .content{
+                background-image: url("/deploy/img/homepage/button/contact.png");
+                background-size: cover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 70px;
+                    margin-bottom: 20px;
 
                 button{
                     background-color: $rite-of-passage;
-                    width: 100px;
-                    height: 40px;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    text-align: center;
+                    
                 }
             }
         }
