@@ -27,6 +27,11 @@
                 text-align: justify;
                 color: $japanese-indigo;
                 margin-bottom: 30px;
+
+                @include lg{
+                    font-size: 18px;
+        
+                }
             }
 
             a{

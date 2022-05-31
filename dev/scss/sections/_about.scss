@@ -37,7 +37,14 @@
                     font-size: 16px;
                     font-weight: 300;
                     color: $japanese-indigo;
-            }
+                    }
+                
+                    li{
+                        @include lg{
+                            font-size: 18px;
+                
+                        }
+                    }
                 }
             }
         }

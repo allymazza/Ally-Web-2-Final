@@ -1,4 +1,5 @@
 .gallery{
+    background-color: $cultured;
     .container{
         img{
             width: 100%;
@@ -8,7 +9,7 @@
         .content{
             
             display: grid;
-            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
             object-fit: cover;
 
             

@@ -221,15 +221,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/homepage\/roundtable.jpeg" : {
-      "ft" : 16384,
-      "iS" : 3145387,
-      "jF" : 0,
+    "\/deploy\/img\/homepage\/roundtable.png" : {
+      "ft" : 32768,
+      "iS" : 281130,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/homepage\/roundtable.jpg",
+      "oAP" : "\/deploy\/img\/homepage\/roundtable.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

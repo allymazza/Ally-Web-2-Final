@@ -10,6 +10,13 @@
 
         .content{
 
+      
+        }
+    }
+
+
+}
+
 
             .newsletter-info{
                 background-color: white;
@@ -18,12 +25,25 @@
                     .content{
                         display: inline;
                         padding: 20px;
+                        
 
+                        h4{
+
+                        }
+
+                        input{
+                            display: flex;
+                        }
+                        
+                        button{
+                            background-color: $rite-of-passage;
+                            width: 150px;
+                            height: 50px;
+                            
+                            
+                
+                        }
                     }
                 }
             }
-        }
-    }
-
-
-}
+      
