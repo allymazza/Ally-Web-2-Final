@@ -425,7 +425,7 @@ textarea {
 ============= */
 nav {
   display: none;
-  background-color: #1e4648;
+  background-color: #fff;
   height: 100vh;
   padding: 16px;
   position: absolute;
@@ -435,7 +435,7 @@ nav {
 }
 @media (min-width: 992px) {
   nav {
-    background-color: #fff;
+    background-color: transparent;
     display: block;
     height: 100%;
     padding: 0;
@@ -463,7 +463,7 @@ nav ul {
   nav ul {
     align-items: center;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding-top: 0;
   }
 }
@@ -492,7 +492,7 @@ nav ul li a:visited {
 @media (min-width: 992px) {
   nav ul li a:link,
 nav ul li a:visited {
-    color: #1e4648;
+    color: #fff;
   }
 }
 nav ul li a:link:hover, nav ul li a:link:active,
@@ -513,11 +513,6 @@ nav ul li:first-child {
   padding: 20px;
   object-fit: none;
 }
-.header .container .content .burger-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
 @media (min-width: 992px) {
   .header .container .content .burger-container {
     display: none;
@@ -526,11 +521,20 @@ nav ul li:first-child {
 .header .container .content .burger-container button {
   border: none;
   background-color: transparent;
-  color: #1e4648;
+  color: #fff;
   font-size: 20px;
 }
 .header .container .content .burger-container button:hover {
   cursor: pointer;
+}
+
+.ourstoryheader {
+  background-color: #4e7276;
+  padding: 50px;
+}
+.ourstoryheader .container .content h1 {
+  text-align: center;
+  color: #fff;
 }
 
 .masthead .container .content {
