@@ -18,28 +18,34 @@
 }
 
 
-            .newsletter-info{
-                background-color: white;
-                .container{
+   .newsletter-info{
+        background-color: opacify($color: white, $amount: .5%);
+            .container{
 
-                    .content{
-                        display: inline;
-                        padding: 20px;
+                 .content{
+                    display: inline;
+                    padding: 20px;
+                    grid-template-rows: auto auto auto;
                         
 
                         h4{
-
+                            color: $japanese-indigo;
+                            padding-bottom: 10px;
                         }
 
                         input{
                             display: flex;
+                            border-color: $japanese-indigo;
                         }
                         
                         button{
                             background-color: $rite-of-passage;
-                            width: 150px;
+                            width: 100px;
                             height: 50px;
-                            
+
+
+                        
+                        
                             
                 
                         }

@@ -4,6 +4,7 @@
         img{
             width: 100%;
             display: block;
+            display: flex;
             
         }
         .content{
@@ -11,6 +12,14 @@
             display: grid;
             grid-template-rows: 50% 50%;
             object-fit: cover;
+
+            @include xl{
+                display: grid;
+                grid-template-columns: 33% 33% auto;
+                grid-template-areas:
+                "image image image"
+                ;
+            }
 
             
             ul{
@@ -27,11 +36,27 @@
 
                 &.img-1{
                     width: 100%;
+                    @include xl{
+                        grid-area: image;
+                    }
                 } 
                 &.img-2{
                     width: 100%;
+                    @include xl{
+                        grid-area: image;
+                    }
                 } 
+                
+
+                &.img-3{
+                    width: 100%;
+                    display: none;
+                    @include xl{
+                        display: block;
+                        grid-area: image;
+                    }
             }
         }
     }
+}
 }

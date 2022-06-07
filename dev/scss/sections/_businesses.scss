@@ -1,0 +1,29 @@
+/* =============
+   Local Businesses
+============= */
+
+
+.businesses{
+    .container{
+        .content{
+            h4{
+                text-align: center;
+                color: $japanese-indigo;
+            }
+
+            p{
+                font-size: 16px;
+                font-weight: 300;
+                padding: 20px;
+                text-align: justify;
+                color: $japanese-indigo;
+            }
+
+            ul{
+                list-style: none;
+                padding-inline-start: 0;
+                display: flex;
+            }
+        }
+    }
+}

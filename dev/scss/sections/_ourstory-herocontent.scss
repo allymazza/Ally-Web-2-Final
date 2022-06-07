@@ -1,0 +1,39 @@
+/* =============
+    Hero Content
+============= */
+
+.ourstory-herocontent{
+    text-align: center;
+
+    .container{
+        display: flex;
+        .content{
+            
+
+            
+
+
+            p{
+                font-size: 16px;
+                font-weight: 300;
+                padding: 20px;
+                text-align: justify;
+                color: $japanese-indigo;
+
+                @include md{
+                    padding-left: 200px;
+                    padding-right: 200px;
+                }
+
+                @include lg{
+                    font-size: 18px;
+                    padding-left: 200px;
+                    padding-right: 200px;
+                }
+                 
+            }
+
+        }
+    }
+    
+}

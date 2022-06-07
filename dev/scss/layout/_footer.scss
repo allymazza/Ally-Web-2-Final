@@ -11,21 +11,21 @@
     
     .content{
         display:grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 30% 70%;
         grid-template-areas: 
         "socials copyright";
        
         
         p{
             color: $white;
-            font-size: 12px;
+            font-size: 8px;
             
         }
 
         }
         .copyright{
-           padding: 20px;
-           text-align: center;
+    
+            padding-top: 20px;
         
         }
         

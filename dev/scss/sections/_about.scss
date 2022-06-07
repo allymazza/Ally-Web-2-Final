@@ -24,6 +24,18 @@
                     padding: 50px;
                 }
                 
+                @include lg{
+                    padding: 50px;
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    grid-template-areas: 
+                    "image text"
+                    "text image";
+                }
+
+                @include xl{
+                    padding: 50px;
+                }
 
                 h3{
                     font-size: 24px;

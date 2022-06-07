@@ -537,6 +537,10 @@ nav ul li:first-child {
   color: #fff;
 }
 
+.masthead {
+  width: 100%;
+  height: 100%;
+}
 .masthead .container .content {
   display: grid;
   grid-template-columns: 100%;
@@ -568,16 +572,15 @@ nav ul li:first-child {
 }
 .footer .container .content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 30% 70%;
   grid-template-areas: "socials copyright";
 }
 .footer .container .content p {
   color: #fff;
-  font-size: 12px;
+  font-size: 8px;
 }
 .footer .container .copyright {
-  padding: 20px;
-  text-align: center;
+  padding-top: 20px;
 }
 .footer .container .socials ul {
   display: flex;
@@ -679,7 +682,7 @@ nav ul li:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 70px;
+  padding: 80px;
   margin-bottom: 20px;
 }
 .directory .directory-grid .cafe .container .content button {
@@ -693,7 +696,7 @@ nav ul li:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 70px;
+  padding: 80px;
   margin-bottom: 20px;
 }
 .directory .directory-grid .our-story .container .content button {
@@ -705,7 +708,7 @@ nav ul li:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 70px;
+  padding: 80px;
   margin-bottom: 20px;
 }
 .directory .directory-grid .resources .container .content button {
@@ -717,7 +720,7 @@ nav ul li:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 70px;
+  padding: 80px;
   margin-bottom: 20px;
 }
 .directory .directory-grid .contact .container .content button {
@@ -735,6 +738,19 @@ nav ul li:first-child {
   color: #1e4648;
 }
 @media (min-width: 768px) {
+  .about .about-info .container .content {
+    padding: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .about .about-info .container .content {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: "image text" "text image";
+  }
+}
+@media (min-width: 1200px) {
   .about .about-info .container .content {
     padding: 50px;
   }
@@ -771,13 +787,19 @@ nav ul li:first-child {
 .newsletter-info .container .content {
   display: inline;
   padding: 20px;
+  grid-template-rows: auto auto auto;
+}
+.newsletter-info .container .content h4 {
+  color: #1e4648;
+  padding-bottom: 10px;
 }
 .newsletter-info .container .content input {
   display: flex;
+  border-color: #1e4648;
 }
 .newsletter-info .container .content button {
   background-color: #ffeca8;
-  width: 150px;
+  width: 100px;
   height: 50px;
 }
 
@@ -820,11 +842,19 @@ nav ul li:first-child {
 .gallery .container img {
   width: 100%;
   display: block;
+  display: flex;
 }
 .gallery .container .content {
   display: grid;
   grid-template-rows: 50% 50%;
   object-fit: cover;
+}
+@media (min-width: 1200px) {
+  .gallery .container .content {
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    grid-template-areas: "image image image";
+  }
 }
 .gallery .container .content ul {
   list-style: none;
@@ -837,8 +867,28 @@ nav ul li:first-child {
 .gallery .container .content li.img-1 {
   width: 100%;
 }
+@media (min-width: 1200px) {
+  .gallery .container .content li.img-1 {
+    grid-area: image;
+  }
+}
 .gallery .container .content li.img-2 {
   width: 100%;
+}
+@media (min-width: 1200px) {
+  .gallery .container .content li.img-2 {
+    grid-area: image;
+  }
+}
+.gallery .container .content li.img-3 {
+  width: 100%;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .gallery .container .content li.img-3 {
+    display: block;
+    grid-area: image;
+  }
 }
 
 /* =============
@@ -878,9 +928,125 @@ nav ul li:first-child {
   display: block;
   margin-bottom: 30px;
 }
+@media (min-width: 1200px) {
+  .about-continued .container .content img {
+    display: none;
+  }
+}
 .about-continued .container .content button {
   background-color: #ffeca8;
   width: 150px;
   height: 50px;
   margin: 0;
+}
+
+/* =============
+    Hero Content
+============= */
+.ourstory-herocontent {
+  text-align: center;
+}
+.ourstory-herocontent .container {
+  display: flex;
+}
+.ourstory-herocontent .container .content p {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 20px;
+  text-align: justify;
+  color: #1e4648;
+}
+@media (min-width: 768px) {
+  .ourstory-herocontent .container .content p {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+@media (min-width: 992px) {
+  .ourstory-herocontent .container .content p {
+    font-size: 18px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+/* =============
+    Contact
+============= */
+.peicha {
+  padding-top: 30px;
+  background-color: #f7f9ee;
+}
+.peicha .container .content h2 {
+  text-align: center;
+  color: #1e4648;
+}
+.peicha .container .content p {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 20px;
+  text-align: justify;
+  color: #1e4648;
+}
+.peicha .container .content img {
+  padding-left: 80px;
+}
+
+/* =============
+    Why We're Different
+============= */
+.why-were-different {
+  padding-top: 30px;
+  display: flex;
+}
+.why-were-different .container .content h2 {
+  text-align: center;
+  color: #1e4648;
+  padding-bottom: 20px;
+}
+.why-were-different .container .content h3 {
+  text-align: center;
+  color: #1e4648;
+  padding-bottom: 20px;
+}
+.why-were-different .container .content p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #1e4648;
+  padding-bottom: 10px;
+}
+.why-were-different .container .content img {
+  display: flex;
+}
+.why-were-different .container .content .content-grid {
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: "image text" "text image";
+}
+.why-were-different .container .content .content-grid p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #1e4648;
+  padding-right: 20px;
+  line-height: 25px;
+}
+
+/* =============
+    Our Mission
+============= */
+.our-mission {
+  background-color: #f7f9ee;
+  padding-top: 30px;
+}
+.our-mission .container .content h4 {
+  text-align: center;
+  color: #1e4648;
+}
+.our-mission .container .content p {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 20px;
+  text-align: justify;
+  color: #1e4648;
 }
