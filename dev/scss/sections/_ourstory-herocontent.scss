@@ -4,6 +4,7 @@
 
 .ourstory-herocontent{
     text-align: center;
+    padding-top: 20px;
 
     .container{
         display: flex;
@@ -11,7 +12,23 @@
             
 
             
+            img{
+                width: 100%;
+            }
 
+            .img-2{
+                @include md{
+                    display: none;
+                }
+
+                @include lg{
+                    display: none;
+                }
+
+                @include xl{
+                    display: none;
+                }
+            }
 
             p{
                 font-size: 16px;

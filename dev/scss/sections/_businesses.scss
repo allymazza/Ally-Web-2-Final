@@ -15,14 +15,30 @@
                 font-size: 16px;
                 font-weight: 300;
                 padding: 20px;
-                text-align: justify;
                 color: $japanese-indigo;
             }
 
             ul{
+                
                 list-style: none;
-                padding-inline-start: 0;
-                display: flex;
+                padding-inline-start: 125px;
+
+
+                @include md{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                }
+
+                @include lg{
+                    display: grid;
+                    grid-template-columns: auto auto auto;
+                }
+
+                @include xl{
+                    display: grid;
+                    grid-template-columns: auto auto auto;
+                }
+                
             }
         }
     }

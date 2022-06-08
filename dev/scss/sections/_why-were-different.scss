@@ -11,8 +11,34 @@
     .container{
 
         .content{
-            
 
+            .img-2{
+                @include md{
+                    display: none;
+                }
+
+                @include lg{
+                    display: none;
+                }
+
+                @include xl{
+                    display: none;
+                }
+
+                .img-3{
+                    @include md{
+                        display: none;
+                    }
+    
+                    @include lg{
+                        display: none;
+                    }
+    
+                    @include xl{
+                        display: none;
+                    }
+            }
+            
             h2{
                 text-align: center;
                 color: $japanese-indigo;
@@ -33,6 +59,7 @@
                
             }
 
+
             img{
                 display: flex;
             }
@@ -45,6 +72,27 @@
                 "image text"
                 "text image";
 
+                @include md{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    grid-template-areas: 
+                    "text image";
+                }
+
+                @include lg{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    grid-template-areas: 
+                    "text image";
+                }
+
+                @include xl{
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    grid-template-areas: 
+                    "text image";
+                }
+
 
                 p{
                     font-size: 16px;
@@ -56,7 +104,7 @@
                 }
             }
             
-
+        }
         }
     }
 }
