@@ -156,6 +156,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/html\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/html\/index.html",
+      "oF" : 0
+    },
     "\/deploy\/img\/header.png" : {
       "ft" : 32768,
       "iS" : 49796,
@@ -487,14 +495,6 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
-    },
-    "\/deploy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 0
     },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
