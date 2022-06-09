@@ -44,7 +44,27 @@
                         h1{
                             text-align: center;
                             color: $white;
+
+
+                            @include md{
+                                display: none
+                            }
                         }
+
+                        img{
+                            display: none;
+                            align-content: center;
+                            margin-left: auto;
+                            margin-right: auto;
+                         
+
+                            @include md{
+                                display: block;
+                            }
+
+                        
+                        }
+
 
                     }
                 }

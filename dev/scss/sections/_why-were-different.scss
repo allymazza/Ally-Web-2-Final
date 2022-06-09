@@ -12,7 +12,55 @@
 
         .content{
 
+            .content-grid{
+                padding-bottom: 20px;
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 50% 50%;
+                grid-template-areas: 
+                "img-1 text"
+                "text img-2";
+
+                @include md{
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-areas: 
+                    "text img-1";
+                }
+
+                @include lg{
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-areas: 
+                    "text img-1";
+                }
+
+                @include xl{
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                    grid-template-areas: 
+                    "text img-1";
+                }
+
+
+                p{
+                    font-size: 16px;
+                    font-weight: 300;
+                    color: $japanese-indigo;
+                    padding-right: 20px;
+                    line-height: 25px;
+                    
+                }
+           
+
+            .img-1{
+                grid-area: img-1;
+                width: 100%;
+            }
+
             .img-2{
+                grid-area: img-2;
+
                 @include md{
                     display: none;
                 }
@@ -26,6 +74,7 @@
                 }
 
                 .img-3{
+                    width: 100%;
                     @include md{
                         display: none;
                     }
@@ -38,11 +87,12 @@
                         display: none;
                     }
             }
+        }
             
             h2{
                 text-align: center;
                 color: $japanese-indigo;
-                padding-bottom: 20px;
+                padding-bottom: 50px;
             }
 
             h3{
@@ -60,49 +110,9 @@
             }
 
 
-            img{
-                display: flex;
-            }
+            
 
-            .content-grid{
-                padding-bottom: 20px;
-                display: grid;
-                grid-template-columns: auto auto;
-                grid-template-areas: 
-                "image text"
-                "text image";
-
-                @include md{
-                    display: grid;
-                    grid-template-columns: auto auto;
-                    grid-template-areas: 
-                    "text image";
-                }
-
-                @include lg{
-                    display: grid;
-                    grid-template-columns: auto auto;
-                    grid-template-areas: 
-                    "text image";
-                }
-
-                @include xl{
-                    display: grid;
-                    grid-template-columns: auto auto;
-                    grid-template-areas: 
-                    "text image";
-                }
-
-
-                p{
-                    font-size: 16px;
-                    font-weight: 300;
-                    color: $japanese-indigo;
-                    padding-right: 20px;
-                    line-height: 25px;
-                    
-                }
-            }
+            
             
         }
         }

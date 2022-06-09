@@ -19,7 +19,7 @@
 
 
    .newsletter-info{
-        background-color: opacify($color: white, $amount: .5%);
+        background-color: opacify($color: white, $amount: .3%);
             .container{
 
                  .content{
@@ -27,7 +27,12 @@
                     padding: 20px;
                     grid-template-rows: auto auto auto;
 
-                        
+                        form{
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: wrap-reverse;
+                            
+                        }
 
                         h4{
                             color: $japanese-indigo;
@@ -43,7 +48,6 @@
                             background-color: $rite-of-passage;
                             width: 100px;
                             height: 50px;
-                            color: black;
                     
                 
                             

@@ -15,20 +15,7 @@
             "img-1 img-2";
             object-fit: cover;
 
-            @include md{
-                display: grid;
-                grid-template-columns: 50% 30% auto;
-                grid-template-rows: auto 30% 50% ;
-                grid-template-areas: 
-                "img-5 img-1 img-2"
-                "img-4 img-6 img-3";
-            }
-
-            @include lg{
-                display: grid;
-                grid-template-columns: 50% 30% auto;
-                grid-template-rows: auto 30% 50% ;
-            }
+            
             
 
 
@@ -37,6 +24,21 @@
                 list-style: none;
                 padding-inline-start: 0;
                 display: inline;
+
+                @include md{
+                    display: grid;
+                    grid-template-columns: 50% 30% auto;
+                    grid-template-rows: auto 30% 50% ;
+                    grid-template-areas: 
+                    "img-5 img-1 img-2"
+                    "img-4 img-6 img-3";
+                }
+    
+                @include lg{
+                    display: grid;
+                    grid-template-columns: 50% 30% auto;
+                    grid-template-rows: auto 30% 50% ;
+                }
             }
 
             li{
@@ -44,13 +46,13 @@
                 &.img-1{
                     width: 100%;
                     @include xl{
-                        grid-area: image;
+                        grid-area: img-1;
                     }
                 } 
                 &.img-2{
                     width: 100%;
                     @include xl{
-                        grid-area: image;
+                        grid-area: img-2;
                     }
                 } 
                 
@@ -59,16 +61,9 @@
                     display: none;
                     @include md{
                         display: block;
-                        grid-area: image;
+                        grid-area: img-3;
                     }
-                    @include lg{
-                        display: block;
-                        grid-area: image;
-                    }
-                    @include xl{
-                        display: block;
-                        grid-area: image;
-                    }
+                    
 
 
                     &.img-4{
@@ -77,18 +72,30 @@
 
                         @include md{
                             display: block;
-                            grid-area: image;
+                            grid-area: img-4;
                         }
-                        @include lg{
-                            display: block;
-                            grid-area: image;
-                        }
-                        @include xl{
-                            display: block;
-                            grid-area: image;
-                        }
+                        
+                        &.img-5{
+                            width: 100%;
+                            display: none;
+    
+                            @include md{
+                                display: block;
+                                grid-area: img-5;
+                            }
+
+                            &.img-6{
+                                width: 100%;
+                                display: none;
+        
+                                @include md{
+                                    display: block;
+                                    grid-area: img-6;
+                                }
             }
         }
+    }
+}
     }
 }
     }

@@ -50,6 +50,15 @@
                  
             }
 
+            h1{
+                color: $japanese-indigo;
+                display: none;
+
+                @include md{
+                    display: block;
+                }
+            }
+
         }
     }
     

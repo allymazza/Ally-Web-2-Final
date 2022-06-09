@@ -366,6 +366,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/logo\/text.png" : {
+      "ft" : 32768,
+      "iS" : 2088,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/logo\/text.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/logo\/whitelogo.png" : {
       "ft" : 32768,
       "iS" : 1326,
@@ -397,6 +410,84 @@
       "iS" : 221494,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/our-story\/breakfast.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/our-story\/gallery\/bouquet.png" : {
+      "ft" : 32768,
+      "iS" : 162915,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our-story\/gallery\/bouquet.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/our-story\/gallery\/breakfast.png" : {
+      "ft" : 32768,
+      "iS" : 286194,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our-story\/gallery\/breakfast.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/our-story\/gallery\/latte.png" : {
+      "ft" : 32768,
+      "iS" : 223970,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our-story\/gallery\/latte.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/our-story\/gallery\/leaf.png" : {
+      "ft" : 32768,
+      "iS" : 352143,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our-story\/gallery\/leaf.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/our-story\/gallery\/pinkflowers.png" : {
+      "ft" : 32768,
+      "iS" : 95707,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our-story\/gallery\/pinkflowers.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/our-story\/gallery\/plants.png" : {
+      "ft" : 32768,
+      "iS" : 493768,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/our-story\/gallery\/plants.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -496,6 +587,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 0
+    },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -520,7 +619,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
+      "oAP" : "\/deploy\/html\/index.html",
       "oF" : 2
     },
     "\/dev\/index.html" : {
